@@ -69,19 +69,21 @@
       </div>
     </div>
     <div id="capabilities" class="row">
-      <div class="col-md-2 col-sm-12">
+      <div class="col-md-4 col-sm-12">
         <ul class="red">
-          <li class="liTop"><h4>I Speak</h4></li>
+          <li class="liTop"><h4>What I Speak</h4></li>
           <li class="li1">HTML</li>
           <li class="li2">CSS</li>
           <li class="li3">JavaScript</li>
           <li class="li4">TypeScript</li>
           <li class="li5">SQL</li>
+          <li class="li6">MongoDB</li>
+
         </ul>
       </div>
       <div class="col-md-4 col-sm-12">
         <ul class="red">
-          <li class="liTop"><h4>Experience</h4></li>
+          <li class="liTop"><h4>What I've Done</h4></li>
           <li class="li1">Eight years in Financial Services</li>
           <li class="li2">Six years Product Management</li>
           <li class="li3">Led development of internal web apps</li>
@@ -90,9 +92,9 @@
         </ul>
       </div>
       <div class="col-md-4 col-sm-12">
-        <ul class="red">
-          <li class="liTop"><h4>Education</h4></li>
-          <li class="li1">Certificate: U of T Full Stack Web Development Bootcamp</li>
+        <ul class="stack">
+          <li class="liTop red"><h4>What I've Learned</h4></li>
+          <li class="li1 red">Certificate: U of T Full Stack Web Development Bootcamp</li>
           <li class="li2">CFA Level I Exam Passed</li>
           <li class="li3">Canadian Securities Course</li>
           <li class="li4">Business Analysis Fundamentals (U of T)</li>
@@ -122,11 +124,13 @@
   <script>
     ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' })
     ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' })
+    ScrollReveal().reveal('.li6', { delay: 200, duration: 1000, origin: 'top', distance: '150px' })
     ScrollReveal().reveal('.li5', { delay: 400, duration: 1000, origin: 'top', distance: '150px' })
     ScrollReveal().reveal('.li4', { delay: 600, duration: 1000, origin: 'top', distance: '150px' })
     ScrollReveal().reveal('.li3', { delay: 800, duration: 1000, origin: 'top', distance: '150px' })
     ScrollReveal().reveal('.li2', { delay: 1000, duration: 1000, origin: 'top', distance: '150px' })
     ScrollReveal().reveal('.li1', { delay: 1200, duration: 1000, origin: 'top', distance: '150px' })
+    ScrollReveal().reveal('.liTop', { delay: 1500, duration: 1000, origin: 'left', distance: '400px' })
 
   </script>
 </body>

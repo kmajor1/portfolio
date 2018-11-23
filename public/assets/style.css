@@ -67,6 +67,10 @@ li {
     
 }
 
+li:not(:first-child) {
+    opacity: 0.50; 
+}
+
 li:not(:last-child) {
     border-bottom: 2px solid tan; 
 }
