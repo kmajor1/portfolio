@@ -18,14 +18,15 @@ h1 {
     margin-bottom: 15px; 
     font-weight: bold; 
     text-align: left;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Playfair Display', serif;
 
 }
 
 h2 {
     margin-bottom: 10px; 
     text-align: left;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold; 
 
 }
 
