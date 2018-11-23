@@ -1,10 +1,14 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 body {
     text-align: center; 
     background-image: url(./images/9.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    color: white; 
+    color: lightslategray;
     
 }
 
@@ -37,6 +41,10 @@ p {
     background-color: #892E39;
     color: white; 
 
+}
+
+#bordertest {
+    border: 2px solid black;
 }
 
 
