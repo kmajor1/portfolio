@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Allan|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto');
 
 html.sr .load-hidden {
     visibility: hidden;
+}
+
+html {
+    font-size: 14pt; 
+}
+
+span {
+    color: white; 
+    font-weight: bold; 
 }
 
 body {
@@ -20,6 +29,7 @@ h1 {
     text-align: center; 
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold; 
+    padding: 10px 0; 
 }
 
 @media (min-width: 768px) {
@@ -31,17 +41,31 @@ h1 {
 h2 {
     margin-bottom: 10px; 
     text-align: left;
-    font-family: 'Allan', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 0; 
+
 
 }
 
 p {
     text-align: left; 
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+ul {
+    text-align: left; 
+    list-style: none;
 }
 
 .container {
     width: 100%; 
     margin: 0 auto; 
+}
+
+.spacer {
+    height: 200px; 
 }
 
 .hdgBox {
