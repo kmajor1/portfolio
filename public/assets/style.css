@@ -63,6 +63,11 @@ ul {
 
 li {
     padding: 0 10px; 
+    
+}
+
+li:not(:last-child) {
+    border-bottom: 2px solid tan; 
 }
 
 .container {
