@@ -38,9 +38,9 @@
 <body>
   <div class="container-fluid">
     <header id="nav" class="row mt-5 mb-2">
-      <div class="col-lg-10 col">
+      <div class="col-md-10 col">
       </div>
-      <div class="col-lg-2">
+      <div class="col-md-2 col">
         <span>Contact</span>
       </div>
     </header>
@@ -49,9 +49,8 @@
         <h1>Product Manager, Full-Stack Developer</h1>
       </div>
     </div>
-
     <div class="row">
-      <div id="introBody" class="col-lg-10 col hdgBox red load-hidden">
+      <div id="introBody" class="col-md-10 col hdgBox red load-hidden">
         <h2>Hi, I'm Kevin.<br> Nice to meet you.</h2>
         <p>I am a Web developer with six years of business and technical experience working as a product manager in the
           financial services industry.
@@ -69,71 +68,65 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 grey">
-        <h1>My Stack</h1>
-        
+      <div id="myStackTitle" class="col-md-10 col-12 greySideCar mb-3">
+        <h2 class="mt-3 p-0">My Stacks</h2>
       </div>
     </div>
-    
+    <div class="row">
+        <div class="col-md-10 col">
+          <div class="row">
+              <div class="col-md-4 col-sm-12">
+                  <ul class="stack">
+                    <li id="stackTitle1" class="liTop red">
+                      <h4>What I Speak</h4>
+                    </li>
+                    <li class="liSeq1 red">HTML</li>
+                    <li class="liSeq1 red">CSS</li>
+                    <li class="liSeq1 red">JavaScript</li>
+                    <li class="liSeq1 red">TypeScript</li>
+                    <li class="liSeq1 red">mySQL</li>
+                    <li class="liSeq1 red">MongoDB</li>
       
-      <div class="row">
-          <div class="col-md-4 col-sm-12">
-              <ul class="stack">
-                <li id="stackTitle1" class="liTop red">
-                  <h4>What I Speak</h4>
-                </li>
-                <li class="liSeq1 red">HTML</li>
-                <li class="liSeq1 red">CSS</li>
-                <li class="liSeq1 red">JavaScript</li>
-                <li class="liSeq1 red">TypeScript</li>
-                <li class="liSeq1 red">mySQL</li>
-                <li class="liSeq1 red">MongoDB</li>
-      
-              </ul>
-            </div>
-      <div class="col-md-4 col-sm-12">
-        <ul class="stack">
-          <li id="stackTitle2" class="liTop red">
-            <h4>What I've Done</h4>
-          </li>
-          <li class="liSeq2 red">Eight years in Financial Services</li>
-          <li class="liSeq2 red">Six years Product Management</li>
-          <li class="liSeq2 red">Led development of internal web apps</li>
-          <li class="liSeq2 red">Experienced with Agile story development</li>
-          <li class="liSeq2 red">Experienced faciliating presentations to senior management</li>
-        </ul>
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <ul class="stack">
-          <li id="stackTitle3" class="liTop red">
-            <h4>What I've Learned</h4>
-          </li>
-          <li class="liSeq3 red">Certificate: U of T Full Stack Web Development Bootcamp</li>
-          <li class="liSeq3 red">CFA Level I Exam Passed</li>
-          <li class="liSeq3 red">Canadian Securities Course</li>
-          <li class="liSeq3 red">Business Analysis Fundamentals (U of T)</li>
-          <li class="liSeq3 red">BA: Honors Political Science</li>
-        </ul>
-      </div>
-      </div>
-    </div>
-    <div id="myStackDetail" class="row">
-      <div class="col-md-3"></div>
-    </div>
-    <!-- end of stacks lists -->
-    <div id="projects" class="row">
-      <div class="col">
-        <h1>Projects</h1>
-      </div>
-      <div class="row">
-        <!-- put a carousel here? -->
-        <div class="col">
-
+                  </ul>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <ul class="stack">
+                    <li id="stackTitle2" class="liTop red">
+                      <h4>What I've Done</h4>
+                    </li>
+                    <li class="liSeq2 red">Eight years in Financial Services</li>
+                    <li class="liSeq2 red">Six years Product Management</li>
+                    <li class="liSeq2 red">Led development of internal web apps</li>
+                    <li class="liSeq2 red">Experienced with Agile story development</li>
+                    <li class="liSeq2 red">Experienced faciliating presentations to senior management</li>
+                  </ul>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <ul class="stack">
+                    <li id="stackTitle3" class="liTop red">
+                      <h4>What I've Learned</h4>
+                    </li>
+                    <li class="liSeq3 red">Certificate: U of T Full Stack Web Development Bootcamp</li>
+                    <li class="liSeq3 red">CFA Level I Exam Passed</li>
+                    <li class="liSeq3 red">Canadian Securities Course</li>
+                    <li class="liSeq3 red">Business Analysis Fundamentals (U of T)</li>
+                    <li class="liSeq3 red">BA: Honors Political Science</li>
+                  </ul>
+                </div>
+          </div>
+          
         </div>
+    </div>
+    <div class="row">
+      <div id="myProjectsTitle" class="col-md-10 col greySideCar">
+        <h2 class="p-0 mt-3">My Projects</h2>
       </div>
     </div>
   </div>
 
+
+
+  
   <script>
     ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' });
     ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' });
@@ -141,8 +134,11 @@
     ScrollReveal().reveal('.liSeq2', { delay: 2100, interval: 300, origin: 'top', distance: '150px' });
     ScrollReveal().reveal('.liSeq3', { delay: 600, interval: 300, origin: 'top', distance: '150px' });
     ScrollReveal().reveal('#stackTitle3', { delay: 500, duration: 2000, origin: 'left', distance: '400px' });
-    ScrollReveal().reveal('#stackTitle2', { delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
-    ScrollReveal().reveal('#stackTitle1', { delay: 1500, duration: 2000, origin: 'left', distance: '400px' });
+    ScrollReveal().reveal('#stackTitle2', { delay: 1500, duration: 2000, origin: 'left', distance: '400px' });
+    ScrollReveal().reveal('#stackTitle1', { delay: 2000, duration: 2000, origin: 'left', distance: '400px' });
+    ScrollReveal().reveal('#myStackTitle', { delay: 100, duration: 2000, origin: 'left', distance: '900px' });
+    ScrollReveal().reveal('#myProjectsTitle', { delay: 100, duration: 2000, origin: 'left', distance: '900px' });
+
   </script>
 </body>
 

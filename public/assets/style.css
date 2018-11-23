@@ -81,7 +81,7 @@ li:not(:first-child) {
 }
 
 li:not(:last-child) {
-    border-bottom: 3px solid  #FFE2C2; 
+    border-bottom: 3px solid #FFE2C2;
 }
 
 ul.stack > li.liTop {
@@ -113,12 +113,15 @@ ul.stack > li.liTop {
 .sideCar {
     height: 100px; 
     margin-left: 5px; 
+    margin-right: 5px; 
     
 }
 
-.grey {
+.greySideCar {
     background-color: lightslategray; 
     color: white; 
+    margin-left: 5px; 
+    margin-right: 5px; 
     
 }
 
@@ -134,9 +137,8 @@ ul.stack > li.liTop {
     
 }
 
-#bordertest {
-    border: 2px solid black;
-}
+
+
 
 
 
