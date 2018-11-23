@@ -1,13 +1,47 @@
 body {
-    background-color: white; 
     text-align: center; 
+    background-image: url(./images/9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white; 
+    
+}
+
+h1 {
+    margin-bottom: 15px; 
+    font-weight: bold; 
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 10px; 
+
+}
+
+p {
+    text-align: left; 
 }
 
 .container {
-    margin-left: 0; 
-    margin-right: 0; 
+    width: 100%; 
+    margin: 0 auto; 
 }
 
-#history {
-    background-color: lightskyblue; 
+.hdgBox {
+    padding-left: 20px; 
 }
+
+
+.red  {
+    background-color: #892E39;
+    color: white; 
+
+}
+
+
+
+
+
+
+
