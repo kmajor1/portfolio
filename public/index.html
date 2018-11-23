@@ -37,22 +37,19 @@
 
 <body>
   <div class="container-fluid">
-    <header class="row mt-5 mb-2">
+    <header id="nav" class="row mt-5 mb-2">
       <div class="col-lg-10 col">
       </div>
       <div class="col-lg-2">
         <span>Contact</span>
       </div>
     </header>
-    <div id="mainContent" class="row">
+    <div id="hero" class="row">
       <div id="intro" class="col text-left load-hidden">
         <h1>Product Manager, Full-Stack Developer</h1>
       </div>
     </div>
-    <div id="introDetail" class="row">
-      <div class="hdgBox col text-left">
-      </div>
-    </div>
+    
     <div class="row">
       <div id="introBody" class="col-lg-10 col hdgBox red load-hidden">
         <h2>Hi, I'm Kevin.<br> Nice to meet you.</h2>
@@ -67,12 +64,17 @@
       <div class="col-lg-2">
       </div>
     </div>
-    <div class="row">
+    <div id="myFace" class="row">
       <div class="col spacer">
-        <img src="https://via.placeholder.com/200x200/">
       </div>
     </div>
-    <div id="capabilities" class="row">
+    <div id="myStackTitle" class="row mb-5">
+        <div class="col-md-8 grey sideCar">
+            <h1>My Stack</h1>
+          </div>
+    </div>
+    <div id="myStackDetail" class="row">
+      
       <div class="col-md-4 col-sm-12">
         <ul class="stack">
           <li id="stackTitle1" class="liTop red">
@@ -82,7 +84,7 @@
           <li class="liSeq1 red">CSS</li>
           <li class="liSeq1 red">JavaScript</li>
           <li class="liSeq1 red">TypeScript</li>
-          <li class="liSeq1 red">SQL</li>
+          <li class="liSeq1 red">mySQL</li>
           <li class="liSeq1 red">MongoDB</li>
 
         </ul>
@@ -123,25 +125,18 @@
 
         </div>
       </div>
-      </div>
+    </div>
 </div>
 
       <script>
-        ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' })
-        ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' })
-        ScrollReveal().reveal('.liSeq1', { delay: 3600,  interval: 300, origin: 'top', distance: '150px' })
-        ScrollReveal().reveal('.liSeq2', { delay: 2100, interval: 300, origin: 'top', distance: '150px' })
-        ScrollReveal().reveal('.liSeq3', { delay: 600, interval: 300, origin: 'top', distance: '150px' })
-
-        // ScrollReveal().reveal('.li5', { delay: 2200, duration: 1500, origin: 'top', distance: '150px' })
-        // ScrollReveal().reveal('.li4', { delay: 2400, duration: 1500, origin: 'top', distance: '150px' })
-        // ScrollReveal().reveal('.li3', { delay: 2600, duration: 1500, origin: 'top', distance: '150px' })
-        // ScrollReveal().reveal('.li2', { delay: 2800, duration: 1500, origin: 'top', distance: '150px' })
-        // ScrollReveal().reveal('.li1', { delay: 3000, duration: 1500, origin: 'top', distance: '150px' })
-        ScrollReveal().reveal('#stackTitle3', { delay: 500, duration: 2000, origin: 'left', distance: '400px' })
-        ScrollReveal().reveal('#stackTitle2', { delay: 1000, duration: 2000, origin: 'left', distance: '400px' })
-        ScrollReveal().reveal('#stackTitle1', { delay: 1500, duration: 2000, origin: 'left', distance: '400px' })
-
+        ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' });
+        ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' });
+        ScrollReveal().reveal('.liSeq1', { delay: 3600,  interval: 300, origin: 'top', distance: '150px' });
+        ScrollReveal().reveal('.liSeq2', { delay: 2100, interval: 300, origin: 'top', distance: '150px' });
+        ScrollReveal().reveal('.liSeq3', { delay: 600, interval: 300, origin: 'top', distance: '150px' });
+        ScrollReveal().reveal('#stackTitle3', { delay: 500, duration: 2000, origin: 'left', distance: '400px' });
+        ScrollReveal().reveal('#stackTitle2', { delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
+        ScrollReveal().reveal('#stackTitle1', { delay: 1500, duration: 2000, origin: 'left', distance: '400px' });
       </script>
 </body>
 
