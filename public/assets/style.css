@@ -38,11 +38,6 @@ h1 {
     }
 }
 
-@media (min-width: 768px) {
-    h2::after {
-        display: 
-    }
-}
 
 h2 {
     margin-bottom: 10px; 
@@ -85,7 +80,7 @@ li:not(:first-child) {
 }
 
 li:not(:last-child) {
-    border-bottom: 2px solid tan; 
+    border-bottom: 3px solid  #FFE2C2; 
 }
 
 ul.stack > li.liTop {

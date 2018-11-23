@@ -51,15 +51,18 @@
     </div>
     <div id="introDetail" class="row">
       <div class="hdgBox col text-left">
-        </div>
       </div>
+    </div>
     <div class="row">
       <div id="introBody" class="col-lg-10 col hdgBox red load-hidden">
         <h2>Hi, I'm Kevin.<br> Nice to meet you.</h2>
-        <p>I am a Web developer with six years of business and technical experience working as a product manager in the financial services industry. 
+        <p>I am a Web developer with six years of business and technical experience working as a product manager in the
+          financial services industry.
         </p>
-        <p>Experienced working directly with IT professionals including developers, QA specialists and senior management. I have technical experience with HTML, CSS, Git, JavaScript, TypeScript, MySQL, MongoDB, Firebase and Node.JS. Proficient in full-stack with a strong backend skillset. </p>
-        
+        <p>Experienced working directly with IT professionals including developers, QA specialists and senior
+          management. I have technical experience with HTML, CSS, Git, JavaScript, TypeScript, MySQL, MongoDB, Firebase
+          and Node.JS. Proficient in full-stack with a strong backend skillset. </p>
+
       </div>
       <div class="col-lg-2">
       </div>
@@ -72,7 +75,9 @@
     <div id="capabilities" class="row">
       <div class="col-md-4 col-sm-12">
         <ul class="stack">
-          <li class="liTop red"><h4>What I Speak</h4></li>
+          <li id="stackTitle1" class="liTop red">
+            <h4>What I Speak</h4>
+          </li>
           <li class="li1 red">HTML</li>
           <li class="li2 red">CSS</li>
           <li class="li3 red">JavaScript</li>
@@ -84,7 +89,9 @@
       </div>
       <div class="col-md-4 col-sm-12">
         <ul class="stack">
-          <li class="liTop red"><h4>What I've Done</h4></li>
+          <li id="stackTitle2" class="liTop red">
+            <h4>What I've Done</h4>
+          </li>
           <li class="li1 red">Eight years in Financial Services</li>
           <li class="li2 red">Six years Product Management</li>
           <li class="li3 red">Led development of internal web apps</li>
@@ -94,7 +101,9 @@
       </div>
       <div class="col-md-4 col-sm-12">
         <ul class="stack">
-          <li class="liTop red"><h4>What I've Learned</h4></li>
+          <li id="stackTitle3" class="liTop red">
+            <h4>What I've Learned</h4>
+          </li>
           <li class="li1 red">Certificate: U of T Full Stack Web Development Bootcamp</li>
           <li class="li2 red">CFA Level I Exam Passed</li>
           <li class="li3 red">Canadian Securities Course</li>
@@ -108,32 +117,29 @@
       <div class="col">
         <h1>Projects</h1>
       </div>
-    <div class="row">
-    <!-- put a carousel here? -->
-      <div class="col">
-        
+      <div class="row">
+        <!-- put a carousel here? -->
+        <div class="col">
+
+        </div>
       </div>
-    </div>
-        
-      
-      
-    
-    
-  
+      </div>
+</div>
 
+      <script>
+        ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' })
+        ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' })
+        ScrollReveal().reveal('.li6', { delay: 2000, duration: 1500, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('.li5', { delay: 2200, duration: 1500, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('.li4', { delay: 2400, duration: 1500, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('.li3', { delay: 2600, duration: 1500, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('.li2', { delay: 2800, duration: 1500, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('.li1', { delay: 3000, duration: 1500, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('#stackTitle3', { delay: 500, duration: 2000, origin: 'left', distance: '400px' })
+        ScrollReveal().reveal('#stackTitle2', { delay: 1000, duration: 2000, origin: 'left', distance: '400px' })
+        ScrollReveal().reveal('#stackTitle1', { delay: 1500, duration: 2000, origin: 'left', distance: '400px' })
 
-  <script>
-    ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' })
-    ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' })
-    ScrollReveal().reveal('.li6', { delay: 200, duration: 1000, origin: 'top', distance: '150px' })
-    ScrollReveal().reveal('.li5', { delay: 400, duration: 1000, origin: 'top', distance: '150px' })
-    ScrollReveal().reveal('.li4', { delay: 600, duration: 1000, origin: 'top', distance: '150px' })
-    ScrollReveal().reveal('.li3', { delay: 800, duration: 1000, origin: 'top', distance: '150px' })
-    ScrollReveal().reveal('.li2', { delay: 1000, duration: 1000, origin: 'top', distance: '150px' })
-    ScrollReveal().reveal('.li1', { delay: 1200, duration: 1000, origin: 'top', distance: '150px' })
-    ScrollReveal().reveal('.liTop', { delay: 1500, duration: 1000, origin: 'left', distance: '400px' })
-
-  </script>
+      </script>
 </body>
 
 </html>
