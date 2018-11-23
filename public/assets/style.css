@@ -18,14 +18,13 @@ h1 {
     margin-bottom: 15px; 
     font-weight: bold; 
     text-align: left;
-    font-family: 'Bree Serif', serif;
-
+    font-family: 'Bree Serif'; 
 }
 
 h2 {
     margin-bottom: 10px; 
     text-align: left;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Allan', cursive;
 
 }
 
@@ -41,6 +40,7 @@ p {
 .hdgBox {
     padding-left: 20px; 
     margin-left: 5px; 
+    margin-right: 5px; 
 }
 
 
