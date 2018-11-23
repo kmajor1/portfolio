@@ -38,12 +38,23 @@ h1 {
     }
 }
 
+@media (min-width: 768px) {
+    h2::after {
+        display: 
+    }
+}
+
 h2 {
     margin-bottom: 10px; 
     text-align: left;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 5px 0; 
+    padding: 10px 0; 
     font-weight: bold; 
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 p {
@@ -53,12 +64,13 @@ p {
 
 }
 
-ul {
+ul.stack {
     text-align: left; 
     list-style: none;
     padding: 2px 0; 
     border-top-right-radius: 10px; 
     border-top-left-radius: 10px; 
+    font-family: 'Roboto', sans-serif; 
     
 }
 
@@ -68,17 +80,21 @@ li {
 }
 
 li:not(:first-child) {
-    opacity: 0.50; 
+    opacity: 0.8;
+    
 }
 
 li:not(:last-child) {
     border-bottom: 2px solid tan; 
 }
 
-ul.red > li.liTop {
+ul.stack > li.liTop {
     margin-bottom: 5px; 
     border-bottom: 5px solid #FFE2C2;
     text-align: center;
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px; 
+    padding-top: 15px; 
 }
 
 
