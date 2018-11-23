@@ -1,3 +1,2 @@
-// reveal animation library instance
 
 

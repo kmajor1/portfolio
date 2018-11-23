@@ -57,6 +57,8 @@ ul {
     text-align: left; 
     list-style: none;
     padding: 2px 0; 
+    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px; 
     
 }
 
@@ -68,6 +70,14 @@ li {
 li:not(:last-child) {
     border-bottom: 2px solid tan; 
 }
+
+ul.red > li.liTop {
+    margin-bottom: 5px; 
+    border-bottom: 5px solid #FFE2C2;
+    text-align: center;
+}
+
+
 
 .container {
     width: 100%; 
