@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Allan|Josefin+Sans');
 
 html.sr .load-hidden {
     visibility: hidden;
@@ -17,16 +17,21 @@ body {
 h1 {
     margin-bottom: 15px; 
     font-weight: bold; 
-    text-align: left;
-    font-family: 'Playfair Display', serif;
+    text-align: center; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold; 
+}
 
+@media (min-width: 768px) {
+    h1 {
+        text-align: left; 
+    }
 }
 
 h2 {
     margin-bottom: 10px; 
     text-align: left;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold; 
+    font-family: 'Allan', cursive;
 
 }
 
@@ -42,6 +47,7 @@ p {
 .hdgBox {
     padding-left: 20px; 
     margin-left: 5px; 
+    margin-right: 5px; 
 }
 
 
