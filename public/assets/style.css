@@ -30,6 +30,7 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold; 
     padding: 10px 0; 
+    
 }
 
 @media (min-width: 768px) {
@@ -118,6 +119,7 @@ ul.stack > li.liTop {
 .grey {
     background-color: lightslategray; 
     color: white; 
+    
 }
 
 
