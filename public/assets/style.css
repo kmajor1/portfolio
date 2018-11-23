@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+
 html.sr .load-hidden {
     visibility: hidden;
 }
@@ -16,6 +19,7 @@ h1 {
     margin-bottom: 15px; 
     font-weight: bold; 
     text-align: left;
+     
 }
 
 h2 {
