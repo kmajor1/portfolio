@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Allan|Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Allan|Josefin+Sans');
 
 html.sr .load-hidden {
     visibility: hidden;
@@ -17,8 +17,15 @@ body {
 h1 {
     margin-bottom: 15px; 
     font-weight: bold; 
-    text-align: left;
-    font-family: 'Bree Serif'; 
+    text-align: center; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold; 
+}
+
+@media (min-width: 768px) {
+    h1 {
+        text-align: left; 
+    }
 }
 
 h2 {
