@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
-
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Playfair+Display');
 
 html.sr .load-hidden {
     visibility: hidden;
@@ -25,6 +24,8 @@ h1 {
 
 h2 {
     margin-bottom: 10px; 
+    text-align: left;
+    font-family: 'Bree Serif', serif;
 
 }
 
