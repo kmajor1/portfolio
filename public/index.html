@@ -78,12 +78,12 @@
           <li id="stackTitle1" class="liTop red">
             <h4>What I Speak</h4>
           </li>
-          <li class="li1 red">HTML</li>
-          <li class="li2 red">CSS</li>
-          <li class="li3 red">JavaScript</li>
-          <li class="li4 red">TypeScript</li>
-          <li class="li5 red">SQL</li>
-          <li class="li6 red">MongoDB</li>
+          <li class="liSeq1 red">HTML</li>
+          <li class="liSeq1 red">CSS</li>
+          <li class="liSeq1 red">JavaScript</li>
+          <li class="liSeq1 red">TypeScript</li>
+          <li class="liSeq1 red">SQL</li>
+          <li class="liSeq1 red">MongoDB</li>
 
         </ul>
       </div>
@@ -92,11 +92,11 @@
           <li id="stackTitle2" class="liTop red">
             <h4>What I've Done</h4>
           </li>
-          <li class="li1 red">Eight years in Financial Services</li>
-          <li class="li2 red">Six years Product Management</li>
-          <li class="li3 red">Led development of internal web apps</li>
-          <li class="li4 red">Experienced with Agile story development</li>
-          <li class="li5 red">Experienced faciliating presentations to senior management</li>
+          <li class="liSeq2 red">Eight years in Financial Services</li>
+          <li class="liSeq2 red">Six years Product Management</li>
+          <li class="liSeq2 red">Led development of internal web apps</li>
+          <li class="liSeq2 red">Experienced with Agile story development</li>
+          <li class="liSeq2 red">Experienced faciliating presentations to senior management</li>
         </ul>
       </div>
       <div class="col-md-4 col-sm-12">
@@ -104,11 +104,11 @@
           <li id="stackTitle3" class="liTop red">
             <h4>What I've Learned</h4>
           </li>
-          <li class="li1 red">Certificate: U of T Full Stack Web Development Bootcamp</li>
-          <li class="li2 red">CFA Level I Exam Passed</li>
-          <li class="li3 red">Canadian Securities Course</li>
-          <li class="li4 red">Business Analysis Fundamentals (U of T)</li>
-          <li class="li5 red">BA: Honors Political Science</li>
+          <li class="liSeq3 red">Certificate: U of T Full Stack Web Development Bootcamp</li>
+          <li class="liSeq3 red">CFA Level I Exam Passed</li>
+          <li class="liSeq3 red">Canadian Securities Course</li>
+          <li class="liSeq3 red">Business Analysis Fundamentals (U of T)</li>
+          <li class="liSeq3 red">BA: Honors Political Science</li>
         </ul>
       </div>
       <div class="col-md-3"></div>
@@ -129,12 +129,15 @@
       <script>
         ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' })
         ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' })
-        ScrollReveal().reveal('.li6', { delay: 2000, duration: 1500, origin: 'top', distance: '150px' })
-        ScrollReveal().reveal('.li5', { delay: 2200, duration: 1500, origin: 'top', distance: '150px' })
-        ScrollReveal().reveal('.li4', { delay: 2400, duration: 1500, origin: 'top', distance: '150px' })
-        ScrollReveal().reveal('.li3', { delay: 2600, duration: 1500, origin: 'top', distance: '150px' })
-        ScrollReveal().reveal('.li2', { delay: 2800, duration: 1500, origin: 'top', distance: '150px' })
-        ScrollReveal().reveal('.li1', { delay: 3000, duration: 1500, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('.liSeq1', { delay: 3600,  interval: 300, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('.liSeq2', { delay: 2100, interval: 300, origin: 'top', distance: '150px' })
+        ScrollReveal().reveal('.liSeq3', { delay: 600, interval: 300, origin: 'top', distance: '150px' })
+
+        // ScrollReveal().reveal('.li5', { delay: 2200, duration: 1500, origin: 'top', distance: '150px' })
+        // ScrollReveal().reveal('.li4', { delay: 2400, duration: 1500, origin: 'top', distance: '150px' })
+        // ScrollReveal().reveal('.li3', { delay: 2600, duration: 1500, origin: 'top', distance: '150px' })
+        // ScrollReveal().reveal('.li2', { delay: 2800, duration: 1500, origin: 'top', distance: '150px' })
+        // ScrollReveal().reveal('.li1', { delay: 3000, duration: 1500, origin: 'top', distance: '150px' })
         ScrollReveal().reveal('#stackTitle3', { delay: 500, duration: 2000, origin: 'left', distance: '400px' })
         ScrollReveal().reveal('#stackTitle2', { delay: 1000, duration: 2000, origin: 'left', distance: '400px' })
         ScrollReveal().reveal('#stackTitle1', { delay: 1500, duration: 2000, origin: 'left', distance: '400px' })
