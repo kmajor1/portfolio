@@ -6,7 +6,7 @@ html.sr .load-hidden {
 
 html {
     font-size: 14pt; 
-    background-color: #FFE2C2;
+    /* background-color: #FFE2C2; */
 }
 
 span {
@@ -22,10 +22,10 @@ body {
     background-attachment: fixed; 
     background-position: center;
     color: lightslategray;
-    background-size: 100%; 
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background-size: auto;
+    -o-background-size: auto;
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
     
 }
 
