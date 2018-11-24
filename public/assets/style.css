@@ -148,9 +148,7 @@ ul.stack > li.liTop {
 
 
 
-.greySideCar {
-    background-color:#2e6789;
-    color: white; 
+.sideCar {
     margin-left: 5px; 
     margin-right: 5px; 
     
@@ -162,6 +160,18 @@ ul.stack > li.liTop {
     color: white; 
 
 }
+
+.green {
+    background-color: #2e8951;
+    color: white; 
+}
+
+.blue {
+    background-color: #2e6789; 
+    color: white; 
+}
+
+
 
 .inkVis {
     background-color: #FFE2C2; 
