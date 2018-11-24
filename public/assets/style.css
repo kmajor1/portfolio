@@ -21,7 +21,7 @@ body {
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-position: center;
-    color: lightslategray;
+    color: #2e6789;
     background-size: auto;
     -o-background-size: auto;
     -moz-background-size: auto;
@@ -112,16 +112,16 @@ li {
 }
 
 li:not(:first-child) {
-    opacity: 0.8;
+    opacity: 0.9;
     
 }
 
 li:not(:last-child) {
-    border-bottom: 3px solid #FFE2C2;
+    border-bottom-style: dotted;
 }
 
 ul.stack > li.liTop {
-    margin-bottom: 5px; 
+    margin-bottom: 0;
     border-bottom: 5px solid #FFE2C2;
     text-align: center;
     border-top-left-radius: 15px; 
@@ -149,7 +149,7 @@ ul.stack > li.liTop {
 
 
 .greySideCar {
-    background-color: lightslategray; 
+    background-color:#2e6789;
     color: white; 
     margin-left: 5px; 
     margin-right: 5px; 
