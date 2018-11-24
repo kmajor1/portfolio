@@ -1,3 +1,5 @@
+// call auth 
+var userAuth = firebase.auth(); 
 // call firebase rt db
 var db = firebase.database();
 var contactRef = db.ref();
