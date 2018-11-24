@@ -41,7 +41,9 @@
       <div class="col-md-10 col">
       </div>
       <div class="col-md-2 col">
-        <span>Contact</span>
+        <button type="button" data-toggle="modal" data-target="#modelId">
+          Contact Me!
+        </button>
       </div>
     </header>
     <div id="hero" class="row">
@@ -73,49 +75,49 @@
       </div>
     </div>
     <div class="row">
-        <div class="col-md-10 col">
-          <div class="row">
-              <div class="col-md-4 col-sm-12">
-                  <ul class="stack">
-                    <li id="stackTitle1" class="liTop red">
-                      <h4>What I Speak</h4>
-                    </li>
-                    <li class="liSeq1 red">HTML</li>
-                    <li class="liSeq1 red">CSS</li>
-                    <li class="liSeq1 red">JavaScript</li>
-                    <li class="liSeq1 red">TypeScript</li>
-                    <li class="liSeq1 red">mySQL</li>
-                    <li class="liSeq1 red">MongoDB</li>
-      
-                  </ul>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                  <ul class="stack">
-                    <li id="stackTitle2" class="liTop red">
-                      <h4>What I've Done</h4>
-                    </li>
-                    <li class="liSeq1 red">Eight years in Financial Services</li>
-                    <li class="liSeq1 red">Six years Product Management</li>
-                    <li class="liSeq1 red">Led development of internal web apps</li>
-                    <li class="liSeq1 red">Experienced with Agile story development</li>
-                    <li class="liSeq1 red">Experienced faciliating presentations to senior management</li>
-                  </ul>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                  <ul class="stack">
-                    <li id="stackTitle3" class="liTop red">
-                      <h4>What I've Learned</h4>
-                    </li>
-                    <li class="liSeq1 red">Certificate: U of T Full Stack Web Development Bootcamp</li>
-                    <li class="liSeq1 red">CFA Level I Exam Passed</li>
-                    <li class="liSeq1 red">Canadian Securities Course</li>
-                    <li class="liSeq1 red">Business Analysis Fundamentals (U of T)</li>
-                    <li class="liSeq1 red">BA: Honors Political Science</li>
-                  </ul>
-                </div>
+      <div class="col-md-10 col">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <ul class="stack">
+              <li id="stackTitle1" class="liTop red">
+                <h4>What I Speak</h4>
+              </li>
+              <li class="liSeq1 red">HTML</li>
+              <li class="liSeq1 red">CSS</li>
+              <li class="liSeq1 red">JavaScript</li>
+              <li class="liSeq1 red">TypeScript</li>
+              <li class="liSeq1 red">mySQL</li>
+              <li class="liSeq1 red">MongoDB</li>
+
+            </ul>
           </div>
-          
+          <div class="col-md-4 col-sm-12">
+            <ul class="stack">
+              <li id="stackTitle2" class="liTop red">
+                <h4>What I've Done</h4>
+              </li>
+              <li class="liSeq1 red">Eight years in Financial Services</li>
+              <li class="liSeq1 red">Six years Product Management</li>
+              <li class="liSeq1 red">Led development of internal web apps</li>
+              <li class="liSeq1 red">Experienced with Agile story development</li>
+              <li class="liSeq1 red">Experienced faciliating presentations to senior management</li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <ul class="stack">
+              <li id="stackTitle3" class="liTop red">
+                <h4>What I've Learned</h4>
+              </li>
+              <li class="liSeq1 red">Certificate: U of T Full Stack Web Development Bootcamp</li>
+              <li class="liSeq1 red">CFA Level I Exam Passed</li>
+              <li class="liSeq1 red">Canadian Securities Course</li>
+              <li class="liSeq1 red">Business Analysis Fundamentals (U of T)</li>
+              <li class="liSeq1 red">BA: Honors Political Science</li>
+            </ul>
+          </div>
         </div>
+
+      </div>
     </div>
     <div class="row">
       <div id="myProjectsTitle" class="col-md-10 col greySideCar mr-1">
@@ -125,43 +127,55 @@
   </div>
 
   <!-- modal -->
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
-    Launch
-  </button>
-  
+
+
   <!-- Modal -->
   <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-          <div class="modal-header">
-              <h5 class="modal-title">Send me an email!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
+        <div class="modal-header">
+          <h5 class="modal-title">Send me an email!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
         <div class="modal-body">
           <div class="container-fluid">
-            <div class="row">
-              <div class="form-group">
-                <label for=""></label>
-                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
-                <small id="emailHelpId" class="form-text text-muted">Help text</small>
+            <form id="formContactMe">
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group text-left">
+                    <label for="inputName">Your Name</label>
+                    <input class="form-control" type="text" id="inputName" name="inputName">
+                  </div>
+                  <div class="form-group text-left">
+                    <label for="inputEmail">Your Email</label>
+                    <input class="form-control" type="email" id="inputEmail" name="inputEmail">
+                  </div>
+                </div>
               </div>
-            </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group text-left">
+                    <label for="inputComments">Your Comments</label>
+                    <textarea class="form-control" id="inputComments"></textarea>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </div>
     </div>
   </div>
+  </div>
 
 
 
-  
+
   <script>
     ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' });
     ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' });

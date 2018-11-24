@@ -66,6 +66,36 @@ p {
 
 }
 
+/* for modal */
+
+button {
+    border: none;
+    color: white; 
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 20px;
+    font-weight: bold; 
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+button:hover {
+    text-decoration: underline; 
+}
+
+label {
+    text-align: left; 
+}
+
+.modal-content {
+    background-color:#892E39; 
+    color: white; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+
 ul.stack {
     text-align: left; 
     list-style: none;
@@ -116,12 +146,7 @@ ul.stack > li.liTop {
     margin-right: 5px; 
 }
 
-.sideCar {
-    height: 100px; 
-    margin-left: 5px; 
-    margin-right: 5px; 
-    
-}
+
 
 .greySideCar {
     background-color: lightslategray; 
