@@ -108,6 +108,8 @@ ul.stack {
 
 li {
     padding: 0 10px; 
+    color: white; 
+    background-color: darkslategray; 
     
 }
 
@@ -174,6 +176,11 @@ ul.stack > li.liTop {
 .brown {
     background-color: #89502e; 
     color: white; 
+}
+
+.carousel-item img {
+    width: 980px; 
+    height: auto;
 }
 
 
