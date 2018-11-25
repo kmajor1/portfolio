@@ -183,11 +183,14 @@ ul.stack > li.liTop {
     height: auto;
 }
 
-
-
-.inkVis {
-    background-color: #FFE2C2; 
+#projectHdg  {
+    color: white; 
+    font-weight: bold; 
+    text-align: center; 
+    position: relative;
+    bottom: -40px;  
     
+
 }
 
 
