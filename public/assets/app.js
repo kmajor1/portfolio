@@ -15,3 +15,4 @@ contactForm.onsubmit = function (event) {
     })
 }
 
+// change linked in images for smaller screens 

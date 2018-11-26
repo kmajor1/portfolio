@@ -31,7 +31,7 @@
   <!-- scroll reveal animations -->
   <script src="https://unpkg.com/scrollreveal"></script>
 
-  <script defer src="./assets/app.js"></script>
+  <script  src="./assets/app.js"></script>
 
 </head>
 
@@ -41,14 +41,14 @@
 
       <h1 class="ml-2 mt-4">Product Manager, Full-Stack Developer</h1>
     </div>
-    <div class="col-md-3 col mt-2 text-right">
+    <div class="col-md-3 col mt-2 mb-2 text-right">
       <a href="https://www.linkedin.com/in/kevin-major-32bb1433">
-        <img class="mr-2" src="./assets/images/In-White-66px-R.png">
+        <img id="linkedInImg" class="mr-2" src="./assets/images/In-White-66px-R.png">
       </a>
       <a href="http://github.com/kmajor1" target="_new" alt="My GitHub Repo">
-        <img class="mr-2" src="./assets/images/GitHub-Mark-Light-64px.png">
+        <img id="gitHubImg" class="mr-2" src="./assets/images/GitHub-Mark-Light-64px.png">
       </a>
-      <button type="button" data-toggle="modal" data-target="#modelId">
+      <button class="" id="btnContactMe" type="button" data-toggle="modal" data-target="#modelId">
         Contact Me!
       </button>
     </div>
@@ -143,33 +143,33 @@
             <div class="carousel-item active">
               <div class="carousel-caption d-none d-md-block">
                 <a href="https://marvelherogenerator.com/firebaseapp.com">
-                  <h2 class="projectHdg">Mavatar!</h2>
+                  <h2 class="projectHdg">Mavatar!  </h2>
                 </a>
                 <a href="https://github.com/kmajor1/Hungry-Faces">
                   <img style="max-width: 64px" src="./assets/images/GitHub-Mark-Light-64px.png">
                 </a>
               </div>
               <a href="https://marvelherogenerator.firebaseapp.com/" target="_new">
-                <img class="projectScreen" src="./assets/images/mavatar_screen.jpg" alt="Mavatar - Marvel Hero Generator"></a>
+                <img class="projectScreen img-fluid" src="./assets/images/mavatar_screen.jpg" alt="Mavatar - Marvel Hero Generator"></a>
             </div>
             <div class="carousel-item">
               <div class="carousel-caption d-none d-md-block">
                 <a href="https://kmajor1.github.io/wordguessgame/" target="_new">
-                  <h2 class="projectHdg">Jurassic Park Hangman</h2>
+                  <h2 class="projectHdg">Jurassic Park Hangman!  </h2>
                 </a>
                 <a href="https://github.com/kmajor1/wordguessgame/" target="_new">
                   <img src="./assets/images/GitHub-Mark-Light-64px.png" style="max-width: 60px">
                 </a>
               </div>
               <a href="http://kmajor1.github.io/wordguessgame/" target="_new">
-                <img class="projectScreen" src="./assets/images/jurassic_screen.jpg">
+                <img class="projectScreen img-fluid" src="./assets/images/jurassic_screen.jpg">
               </a>
 
             </div>
             <div class="carousel-item">
               <div class="carousel-caption d-none d-md-block">
                 <a href="https://kmajor1.github.io/giftastic/" target="_new">
-                  <h2 class="projectHdg">Giftastic!</h2>
+                  <h2 class="projectHdg">Giftastic!  </h2>
                 </a>
                 <a href="https://github.com/kmajor1/giftastic/" target="_new">
                   <img src="./assets/images/GitHub-Mark-Light-64px.png" style="max-width: 64px">
@@ -177,7 +177,7 @@
               </div>
 
               <a href="http://kmajor1.github.io/giftastic/" target="_new">
-                <img class="projectScreen" src="./assets/images/giftastic_screen2.jpg">
+                <img class="projectScreen img-fluid" src="./assets/images/giftastic_screen2.jpg">
               </a>
 
             </div>
@@ -255,12 +255,34 @@
   <script>
     ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' });
     ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' });
-    ScrollReveal().reveal('.liSeq1', { mobile: false, viewFactor: 0.50, delay: 3000, interval: 300, origin: 'bottom', distance: '150px' });
+    ScrollReveal().reveal('.liSeq1', { mobile: false, viewFactor: 0.50, delay: 3000,  origin: 'bottom', distance: '150px' });
     ScrollReveal().reveal('#stackTitle3', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
     ScrollReveal().reveal('#stackTitle2', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
     ScrollReveal().reveal('#stackTitle1', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
     ScrollReveal().reveal('#myStackTitle', { viewOffset: { bottom: -60 }, delay: 1000, duration: 1500, origin: 'left', distance: '900px' });
     ScrollReveal().reveal('#myProjectsTitle', { viewOffset: { bottom: -60 }, delay: 100, duration: 2000, origin: 'left', distance: '900px' });
+    linkedInImg = document.getElementById('linkedInImg');
+    gitHubImg = document.getElementById('gitHubImg');
+    btnContactMe = document.getElementById('btnContactMe');
+    console.log(linkedInImg);
+    console.log(gitHubImg);
+
+    function jsMQ(x) {
+    if (x.matches) { // If media query matches
+        gitHubImg.src = "./assets/images/GitHub-Mark-64px.png";
+        linkedInImg.src = "./assets/images/In-Black-66px-R.png";
+        btnContactMe.classList = "black";
+    } else {
+      gitHubImg.src = "./assets/images/GitHub-Mark-Light-64px.png";
+        linkedInImg.src = "./assets/images/In-White-66px-R.png";
+        btnContactMe.classList = "";
+    }
+}
+
+var x = window.matchMedia("(max-width: 700px)");
+jsMQ(x); // Call listener function at run time
+x.addListener(jsMQ); // Attach listener function on state changes
+
 
   </script>
 </body>

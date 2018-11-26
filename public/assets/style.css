@@ -81,6 +81,13 @@ button {
 
 }
 
+
+
+button.black {
+    color: black; 
+    
+}
+
 button:hover {
     text-decoration: underline; 
 }
@@ -181,8 +188,11 @@ ul.stack > li.liTop {
 .carousel-item img {
     width: 980px; 
     height: auto; 
-    opacity: 0.8;
+    opacity: 0.95;
 }
+
+
+
 
 .projectHdg  {
     color: white; 
