@@ -15,7 +15,6 @@ userAuth.onAuthStateChanged(function (user) {
         // User is signed in.
         var isAnonymous = user.isAnonymous;
         var uid = user.uid;
-        alert('this fired');
         // ...
     } else {
         // User is signed out.
