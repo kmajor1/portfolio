@@ -73,11 +73,11 @@ button {
     color: white; 
     background-color: inherit;
     padding: 14px 28px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold; 
     cursor: pointer;
     display: inline-block;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 
 }
 
@@ -88,7 +88,7 @@ button.black {
     
 }
 
-button:hover {
+button:hover, button.black:hover {
     text-decoration: underline; 
 }
 
