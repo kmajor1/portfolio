@@ -53,3 +53,4 @@ yarn.lock
 scripts/*.json
 
 lib/
+.cache
