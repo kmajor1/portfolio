@@ -34,3 +34,4 @@ Temporary Items
 
 # ignore modules 
 /functions/node_modules/*
+.firebase/hosting.cHVibGlj.cache
