@@ -180,17 +180,23 @@ ul.stack > li.liTop {
 
 .carousel-item img {
     width: 980px; 
-    height: auto;
+    height: auto; 
+    opacity: 0.8;
 }
 
-#projectHdg  {
+.projectHdg  {
     color: white; 
     font-weight: bold; 
     text-align: center; 
     position: relative;
-    bottom: -40px;  
+    display: inline; 
+
     
 
+}
+
+.projectScreen {
+    
 }
 
 
