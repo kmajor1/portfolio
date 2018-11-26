@@ -36,28 +36,26 @@
 </head>
 
 <body>
-    <header id="nav" class="row">
-        <div class="col-md-9 mt-2">
-        </div>
-        <div class="col-md-3 col mt-2 text-right">
-          <a href="https://www.linkedin.com/in/kevin-major-32bb1433">
-            <img class="mr-1" src="./assets/images/In-White-66px-R.png">
-          </a>
-          <a href="http://github.com/kmajor1" target="_new" alt="My GitHub Repo">
-            <img class="mr-1" src="./assets/images/GitHub-Mark-Light-64px.png">
-          </a>
-          <button class="d-none" type="button" data-toggle="modal" data-target="#modelId">
-            Contact Me!
-          </button>
-        </div>
-      </header>
-  <div class="container-fluid">
-    
-    <div id="hero" class="row">
-      <div id="intro" class="col text-left load-hidden">
-        <h1>Product Manager, Full-Stack Developer</h1>
-      </div>
+  <header id="nav" class="row">
+    <div id="intro" class="load-hidden col-md-9 mt-2">
+
+      <h1 class="ml-2 mt-4">Product Manager, Full-Stack Developer</h1>
     </div>
+    <div class="col-md-3 col mt-2 text-right">
+      <a href="https://www.linkedin.com/in/kevin-major-32bb1433">
+        <img class="mr-2" src="./assets/images/In-White-66px-R.png">
+      </a>
+      <a href="http://github.com/kmajor1" target="_new" alt="My GitHub Repo">
+        <img class="mr-2" src="./assets/images/GitHub-Mark-Light-64px.png">
+      </a>
+      <button type="button" data-toggle="modal" data-target="#modelId">
+        Contact Me!
+      </button>
+    </div>
+  </header>
+  <div class="container-fluid">
+
+
     <div class="row">
       <div id="introBody" class="col-md-10 col hdgBox red load-hidden">
         <h2>Hi, I'm Kevin.<br> Nice to meet you.</h2>
@@ -77,7 +75,7 @@
       </div>
     </div>
     <div class="row">
-      <div id="myStackTitle" class="col-md-10 col sideCar blue mb-3 mr-1">
+      <div id="myStackTitle" class="load-hidden col-md-10 col sideCar blue mb-3 mr-1">
         <h2 class="mt-3 p-0">My Stacks</h2>
       </div>
     </div>
@@ -156,12 +154,12 @@
             </div>
             <div class="carousel-item">
               <div class="carousel-caption d-none d-md-block">
-                  <a href="https://kmajor1.github.io/wordguessgame/" target="_new">
-                    <h2 class="projectHdg">Jurassic Park Hangman</h2>
-                  </a>
-                  <a href="https://github.com/kmajor1/wordguessgame/" target="_new">
-                    <img src="./assets/images/GitHub-Mark-Light-64px.png" style="max-width: 60px">
-                  </a>
+                <a href="https://kmajor1.github.io/wordguessgame/" target="_new">
+                  <h2 class="projectHdg">Jurassic Park Hangman</h2>
+                </a>
+                <a href="https://github.com/kmajor1/wordguessgame/" target="_new">
+                  <img src="./assets/images/GitHub-Mark-Light-64px.png" style="max-width: 60px">
+                </a>
               </div>
               <a href="http://kmajor1.github.io/wordguessgame/" target="_new">
                 <img class="projectScreen" src="./assets/images/jurassic_screen.jpg">
@@ -196,7 +194,7 @@
       </div>
     </div>
     <div class="col spacer"></div>
-    
+
   </div>
   <footer class="row">
     <div class="col-6 mx-auto">
@@ -257,12 +255,12 @@
   <script>
     ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' });
     ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' });
-     ScrollReveal().reveal('.liSeq1', { mobile: false, viewFactor: 0.50, delay: 3000, interval: 300, origin: 'bottom', distance: '150px' });
+    ScrollReveal().reveal('.liSeq1', { mobile: false, viewFactor: 0.50, delay: 3000, interval: 300, origin: 'bottom', distance: '150px' });
     ScrollReveal().reveal('#stackTitle3', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
     ScrollReveal().reveal('#stackTitle2', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
     ScrollReveal().reveal('#stackTitle1', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
-    ScrollReveal().reveal('#myStackTitle', { viewOffset: {bottom: -60}, delay: 100, duration: 1500, origin: 'left', distance: '900px' });
-    ScrollReveal().reveal('#myProjectsTitle', {viewOffset: {bottom: -60}, delay: 100, duration: 2000, origin: 'left', distance: '900px' });
+    ScrollReveal().reveal('#myStackTitle', { viewOffset: { bottom: -60 }, delay: 1000, duration: 1500, origin: 'left', distance: '900px' });
+    ScrollReveal().reveal('#myProjectsTitle', { viewOffset: { bottom: -60 }, delay: 100, duration: 2000, origin: 'left', distance: '900px' });
 
   </script>
 </body>
