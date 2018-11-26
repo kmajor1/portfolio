@@ -35,4 +35,21 @@ Temporary Items
 # ignore modules 
 /functions/node_modules/*
 
-.firebase/*
+# firebase stuff
+/.vscode
+node_modules
+/coverage
+/.nyc_output
+firebase-debug.log
+npm-debug.log
+package-lock.json
+yarn.lock
+.npmrc
+
+.DS_Store
+.idea
+*.iml
+*.tgz
+scripts/*.json
+
+lib/
