@@ -48,7 +48,6 @@ h1 {
 
 h2 {
     margin-bottom: 10px; 
-    text-align: left;
     font-family: 'Josefin Sans', sans-serif;
     padding: 10px 0; 
     font-weight: bold; 
@@ -205,9 +204,7 @@ ul.stack > li.liTop {
 
 }
 
-.projectScreen {
-    
-}
+
 
 
 
