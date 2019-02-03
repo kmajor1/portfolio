@@ -35,54 +35,44 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Biography <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+            <li class="nav-item" id="btnContactMe"  data-toggle="modal" data-target="#modelId">
+               <a class="nav-link" href="#">Contact Me</a>
             </li>
+           
           </ul>
         </div>
       </nav>
   <header id="nav" class="row">
     
     
-    <div id="intro" class="load-hidden col-md-9 mt-2">
+    <div id="intro" class="ml-2 load-hidden col-md-9">
 
-      <h1 class="ml-2 mt-4">Product Manager, Full-Stack Developer</h1>
+      <h1 class="ml-2">Hi, I'm Kevin. Nice to meet you!</h1>
     </div>
-    <div class="col-md-3 col mt-2 mb-2 text-right">
-      <a href="https://www.linkedin.com/in/kevin-major-32bb1433">
-        <img id="linkedInImg" class="mr-2" src="./assets/images/In-White-66px-R.png">
-      </a>
-      <a href="http://github.com/kmajor1" target="_new" alt="My GitHub Repo">
-        <img id="gitHubImg" class="mr-2" src="./assets/images/GitHub-Mark-Light-64px.png">
-      </a>
-      <button class="" id="btnContactMe" type="button" data-toggle="modal" data-target="#modelId">
-        Contact Me!
-      </button>
-    </div>
+    
   </header>
-  <div class="container-fluid">
+  <div class="ml-2 container-fluid">
 
 
     <div class="row">
       <div id="introBody" class="col-md-10 col hdgBox red load-hidden">
-        <h2 class="text-align-left">Hi, I'm Kevin.<br> Nice to meet you.</h2>
-        <p>I am a Web developer with six years of business and technical experience working as a product manager in the
+        <h2 class="text-align-left">Product Manager<br> Full Stack Web Developer</h2>
+        <p>I am a Web developer with 6+ years of business and technical experience working as a product manager in the
           financial services industry.
         </p>
         <p>Experience working directly with IT professionals including developers, QA specialists and senior
@@ -99,11 +89,23 @@
     </div>
     
   </div>
-  <footer class="row">
-    <div class="ml-5 text-left">
-      <p style="font-weight: bold">&copy; Kevin Major 2018</p>
-    </div>
+  
   </footer>
+  <footer class="ml-2 row">
+      <div class="ml-2 col-md-3 col text-left">
+          <a href="https://www.linkedin.com/in/kevin-major-32bb1433">
+          <img id="linkedInImg" class="mr-2" src="./assets/images/In-Black-34px-R.png">
+          </a>
+          <a href="http://github.com/kmajor1" target="_new" alt="My GitHub Repo">
+          <img id="gitHubImg" class="mr-2" src="./assets/images/GitHub-Mark-32px.png">
+          </a>
+          
+        </div>
+  </footer>
+  <footer class="ml-2 row">
+      <div class="p-2 ml-2 text-left">
+        <p style="font-weight: bold">&copy; Kevin Major 2018</p>
+      </div>
 
 
   <!-- Modal -->
@@ -164,13 +166,13 @@
 
     function jsMQ(x) {
     if (x.matches) { // If media query matches
-        gitHubImg.src = "./assets/images/GitHub-Mark-64px.png";
-        linkedInImg.src = "./assets/images/In-Black-66px-R.png";
+        gitHubImg.src = "./assets/images/GitHub-Mark-32px";
+        linkedInImg.src = "./assets/images/In-Black-34px-R.png";
         btnContactMe.classList = "black";
     } else {
-      gitHubImg.src = "./assets/images/GitHub-Mark-Light-64px.png";
-        linkedInImg.src = "./assets/images/In-White-66px-R.png";
-        btnContactMe.classList = "";
+      gitHubImg.src = "./assets/images/GitHub-Mark-32px.png";
+        linkedInImg.src = "./assets/images/In-Black-34px-R.png";
+        btnContactMe.classList = "black";
     }
 }
 
