@@ -7,14 +7,14 @@
   <title>Major Developments</title>
 
   <!-- update the version number as needed -->
-  <script  src="/__/firebase/5.5.9/firebase-app.js"></script>
+  <script src="/__/firebase/5.5.9/firebase-app.js"></script>
   <!-- include only the Firebase features as you need -->
-  <script  src="/__/firebase/5.5.9/firebase-auth.js"></script>
-  <script  src="/__/firebase/5.5.9/firebase-database.js"></script>
-  <script  src="/__/firebase/5.5.9/firebase-messaging.js"></script>
-  <script  src="/__/firebase/5.5.9/firebase-storage.js"></script>
+  <script src="/__/firebase/5.5.9/firebase-auth.js"></script>
+  <script src="/__/firebase/5.5.9/firebase-database.js"></script>
+  <script src="/__/firebase/5.5.9/firebase-messaging.js"></script>
+  <script src="/__/firebase/5.5.9/firebase-storage.js"></script>
   <!-- initialize the SDK after all desired features are loaded -->
-  <script  src="/__/firebase/init.js"></script>
+  <script src="/__/firebase/init.js"></script>
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -35,30 +35,45 @@
 </head>
 
 <body>
-  <header id="nav" class="row">
-    <div id="intro" class="load-hidden col-md-9 mt-2">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Biography <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item" id="btnContactMe" data-toggle="modal" data-target="#modelId">
+          <a class="nav-link" href="#">Contact Me</a>
+        </li>
 
-      <h1 class="ml-2 mt-4">Product Manager, Full-Stack Developer</h1>
+      </ul>
     </div>
-    <div class="col-md-3 col mt-2 mb-2 text-right">
-      <a href="https://www.linkedin.com/in/kevin-major-32bb1433">
-        <img id="linkedInImg" class="mr-2" src="./assets/images/In-White-66px-R.png">
-      </a>
-      <a href="http://github.com/kmajor1" target="_new" alt="My GitHub Repo">
-        <img id="gitHubImg" class="mr-2" src="./assets/images/GitHub-Mark-Light-64px.png">
-      </a>
-      <button class="" id="btnContactMe" type="button" data-toggle="modal" data-target="#modelId">
-        Contact Me!
-      </button>
+  </nav>
+  <header id="nav" class="row">
+
+
+    <div id="intro" class="ml-2 load-hidden col-md-9">
+
+      <h1 class="ml-2">Hi, I'm Kevin. Nice to meet you!</h1>
     </div>
+
   </header>
-  <div class="container-fluid">
+  <div class="ml-2 container-fluid">
 
 
     <div class="row">
       <div id="introBody" class="col-md-10 col hdgBox red load-hidden">
-        <h2>Hi, I'm Kevin.<br> Nice to meet you.</h2>
-        <p>I am a Web developer with six years of business and technical experience working as a product manager in the
+        <h2 class="text-align-left">Product Manager<br> Full Stack Web Developer</h2>
+        <p>I am a Web developer with 6+ years of business and technical experience working as a product manager in the
           financial services industry.
         </p>
         <p>Experience working directly with IT professionals including developers, QA specialists and senior
@@ -73,161 +88,23 @@
       <div class="col spacer">
       </div>
     </div>
-    <div class="row">
-      <div id="myStackTitle" class="load-hidden col-md-10 col sideCar blue mb-3 mr-1">
-        <h2 class="mt-3 p-0">My Stacks</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-10 col">
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <ul class="stack">
-              <li id="stackTitle1" class="liTop">
-                <h4>What I Speak</h4>
-              </li>
-              <li class="liSeq1">HTML</li>
-              <li class="liSeq1">CSS</li>
-              <li class="liSeq1">JavaScript</li>
-              <li class="liSeq1">TypeScript</li>
-              <li class="liSeq1">mySQL</li>
-              <li class="liSeq1">MongoDB</li>
-
-            </ul>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <ul class="stack">
-              <li id="stackTitle2" class="liTop">
-                <h4>What I've Done</h4>
-              </li>
-              <li class="liSeq1">Eight years in Financial Services</li>
-              <li class="liSeq1">Six years Product Management</li>
-              <li class="liSeq1">Product Owner internal web apps</li>
-              <li class="liSeq1">Agile SDLC</li>
-              <li class="liSeq1">Management Presentations</li>
-              <li class="liSeq1">Regulatory Presentations</li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <ul class="stack">
-              <li id="stackTitle3" class="liTop">
-                <h4>What I've Learned</h4>
-              </li>
-              <li class="liSeq1">Certificate: U of T Full Stack Web Development Bootcamp</li>
-              <li class="liSeq1">CFA Level I Exam Passed</li>
-              <li class="liSeq1">Canadian Securities Course</li>
-              <li class="liSeq1">Business Analysis Course (U of T)</li>
-              <li class="liSeq1">BA: Honors Political Science</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="row mb-2">
-      <div id="myProjectsTitle" class="col-md-10 col sideCar blue mr-1 mb-2">
-        <h2 class="p-0 mt-3">My Projects</h2>
-        <!-- insert carousel here  -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-10">
-        <div id="myProjectsList" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#myProjectsList" data-slide-to="0" class="active"></li>
-            <li data-target="#myProjectsList" data-slide-to="1"></li>
-            <li data-target="#myProjectsList" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <div class="carousel-caption d-none d-md-block">
-                <a href="https://marvelherogenerator.com/firebaseapp.com">
-                  <h2 class="projectHdg">Mavatar!  </h2>
-                </a>
-                <a href="https://github.com/kmajor1/Hungry-Faces">
-                  <img style="max-width: 64px" src="./assets/images/GitHub-Mark-Light-64px.png">
-                </a>
-              </div>
-              <a href="https://marvelherogenerator.firebaseapp.com/" target="_new">
-                <img class="projectScreen img-fluid" src="./assets/images/mavatar_screen.jpg" alt="Mavatar - Marvel Hero Generator"></a>
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-caption d-none d-md-block">
-                <a href="https://kmajor1.github.io/wordguessgame/" target="_new">
-                  <h2 class="projectHdg">Jurassic Park Hangman!  </h2>
-                </a>
-                <a href="https://github.com/kmajor1/wordguessgame/" target="_new">
-                  <img src="./assets/images/GitHub-Mark-Light-64px.png" style="max-width: 60px">
-                </a>
-              </div>
-              <a href="http://kmajor1.github.io/wordguessgame/" target="_new">
-                <img class="projectScreen img-fluid" src="./assets/images/jurassic_screen.jpg">
-              </a>
-
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-caption d-none d-md-block">
-                <a href="https://kmajor1.github.io/giftastic/" target="_new">
-                  <h2 class="projectHdg">Giftastic!  </h2>
-                </a>
-                <a href="https://github.com/kmajor1/giftastic/" target="_new">
-                  <img src="./assets/images/GitHub-Mark-Light-64px.png" style="max-width: 64px">
-                </a>
-              </div>
-
-              <a href="http://kmajor1.github.io/giftastic/" target="_new">
-                <img class="projectScreen img-fluid" src="./assets/images/giftastic_screen2.jpg">
-              </a>
-
-            </div>
-            <!-- liri project -->
-            <div class="carousel-item">
-              <div class="carousel-caption d-none d-md-block">
-                <a href="https://majordevelopments-53e89.firebaseapp.com/" target="_new">
-                  <h2 class="projectHdg">Liri-App  </h2>
-                </a>
-                <a href="https://github.com/kmajor1/liri-node-app" target="_new">
-                  <img src="./assets/images/GitHub-Mark-Light-64px.png" style="max-width: 64px">
-                </a>
-              </div>
-
-              <a href="https://majordevelopments-53e89.firebaseapp.com/" target="_new">
-                <img class="projectScreen img-fluid" src="./assets/images/liri_screen.jpg">
-              </a>
-
-            </div>
-            <div class="carousel-item">
-              <div class="carousel-caption d-none d-md-block">
-                <a href="https://majordevelopments-53e89.firebaseapp.com/" target="_new">
-                  <h2 class="projectHdg">Word Guess Game (Node)  </h2>
-                </a>
-                <a href="https://github.com/kmajor1/cli-wordguessgame" target="_new">
-                  <img src="./assets/images/GitHub-Mark-Light-64px.png" style="max-width: 64px">
-                </a>
-              </div>
-
-              <a href="https://majordevelopments-53e89.firebaseapp.com/" target="_new">
-                <img class="projectScreen img-fluid" src="./assets/images/cliscreen.jpg">
-              </a>
-
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#myProjectsList" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#myProjectsList" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="col spacer"></div>
 
   </div>
-  <footer class="row">
-    <div class="ml-5 text-left">
+
+
+  <footer class="ml-2 row">
+    <div class="ml-2 col-md-3 col text-left">
+      <a href="https://www.linkedin.com/in/kevin-major-32bb1433">
+        <img id="linkedInImg" class="mr-2" src="./assets/images/In-Black-34px-R.png">
+      </a>
+      <a href="http://github.com/kmajor1" target="_new" alt="My GitHub Repo">
+        <img id="gitHubImg" class="mr-2" src="./assets/images/GitHub-Mark-32px.png">
+      </a>
+
+    </div>
+  </footer>
+  <footer class="ml-2 row">
+    <div class="p-2 ml-2 text-left">
       <p style="font-weight: bold">&copy; Kevin Major 2018</p>
     </div>
   </footer>
@@ -283,12 +160,6 @@
   <script>
     ScrollReveal().reveal('#introBody', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' });
     ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' });
-    ScrollReveal().reveal('.liSeq1', { mobile: false, viewFactor: 0.50, delay: 3000,  origin: 'bottom', distance: '150px' });
-    ScrollReveal().reveal('#stackTitle3', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
-    ScrollReveal().reveal('#stackTitle2', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
-    ScrollReveal().reveal('#stackTitle1', { viewFactor: 0.90, delay: 1000, duration: 2000, origin: 'left', distance: '400px' });
-    ScrollReveal().reveal('#myStackTitle', { viewOffset: { bottom: -60 }, delay: 1000, duration: 1500, origin: 'left', distance: '900px' });
-    ScrollReveal().reveal('#myProjectsTitle', { viewOffset: { bottom: -60 }, delay: 100, duration: 2000, origin: 'left', distance: '900px' });
     linkedInImg = document.getElementById('linkedInImg');
     gitHubImg = document.getElementById('gitHubImg');
     btnContactMe = document.getElementById('btnContactMe');
@@ -296,24 +167,24 @@
     console.log(gitHubImg);
 
     function jsMQ(x) {
-    if (x.matches) { // If media query matches
-        gitHubImg.src = "./assets/images/GitHub-Mark-64px.png";
-        linkedInImg.src = "./assets/images/In-Black-66px-R.png";
+      if (x.matches) { // If media query matches
+        gitHubImg.src = "./assets/images/GitHub-Mark-32px";
+        linkedInImg.src = "./assets/images/In-Black-34px-R.png";
         btnContactMe.classList = "black";
-    } else {
-      gitHubImg.src = "./assets/images/GitHub-Mark-Light-64px.png";
-        linkedInImg.src = "./assets/images/In-White-66px-R.png";
-        btnContactMe.classList = "";
+      } else {
+        gitHubImg.src = "./assets/images/GitHub-Mark-32px.png";
+        linkedInImg.src = "./assets/images/In-Black-34px-R.png";
+        btnContactMe.classList = "black";
+      }
     }
-}
 
-var x = window.matchMedia("(max-width: 700px)");
-jsMQ(x); // Call listener function at run time
-x.addListener(jsMQ); // Attach listener function on state changes
+    var x = window.matchMedia("(max-width: 700px)");
+    jsMQ(x); // Call listener function at run time
+    x.addListener(jsMQ); // Attach listener function on state changes
 
 
   </script>
-    <script src="./assets/app.js"></script>
+  <script src="./assets/app.js"></script>
 
 </body>
 
