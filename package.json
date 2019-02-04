@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "firebase-tools": "^6.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmajor1/portfolio.git"
+  },
+  "author": "Kevin Major",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmajor1/portfolio/issues"
+  },
+  "homepage": "https://github.com/kmajor1/portfolio#readme"
+}
