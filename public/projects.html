@@ -175,21 +175,9 @@
     console.log(linkedInImg);
     console.log(gitHubImg);
 
-    function jsMQ(x) {
-      if (x.matches) { // If media query matches
-        gitHubImg.src = "./assets/images/GitHub-Mark-32px";
-        linkedInImg.src = "./assets/images/In-Black-34px-R.png";
-        btnContactMe.classList = "black";
-      } else {
-        gitHubImg.src = "./assets/images/GitHub-Mark-32px.png";
-        linkedInImg.src = "./assets/images/In-Black-34px-R.png";
-        btnContactMe.classList = "black";
-      }
-    }
+    
 
-    var x = window.matchMedia("(max-width: 700px)");
-    jsMQ(x); // Call listener function at run time
-    x.addListener(jsMQ); // Attach listener function on state changes
+    
 
 
   </script>

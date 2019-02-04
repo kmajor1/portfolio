@@ -76,7 +76,7 @@
         <!-- bootcamp projects -->
         <div class="row">
           <div class="col">
-            <h2>Working Experience</h2>
+            <h2>Work</h2>
             <ul>
               <li>GifTastic!</li>
               <li>kPark</li>
@@ -88,7 +88,7 @@
           </div>
           <!-- my own projects -->
           <div class="col">
-            <h2>Technical Experience</h2>
+            <h2>Technical</h2>
             <ul>
               <li>Project</li>
               <li>Project</li>
@@ -99,7 +99,7 @@
             </ul>
           </div>
           <div class="col">
-            <h2>Life and stuff</h2>
+            <h2>Life</h2>
             <ul>
               <li>Something</li>
               <li>Something</li>
@@ -185,21 +185,7 @@
     console.log(linkedInImg);
     console.log(gitHubImg);
 
-    function jsMQ(x) {
-      if (x.matches) { // If media query matches
-        gitHubImg.src = "./assets/images/GitHub-Mark-32px";
-        linkedInImg.src = "./assets/images/In-Black-34px-R.png";
-        btnContactMe.classList = "black";
-      } else {
-        gitHubImg.src = "./assets/images/GitHub-Mark-32px.png";
-        linkedInImg.src = "./assets/images/In-Black-34px-R.png";
-        btnContactMe.classList = "black";
-      }
-    }
-
-    var x = window.matchMedia("(max-width: 700px)");
-    jsMQ(x); // Call listener function at run time
-    x.addListener(jsMQ); // Attach listener function on state changes
+    
 
 
   </script>
