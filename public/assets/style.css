@@ -29,6 +29,12 @@ body {
     
 }
 
+footer {
+    position: absolute;
+    bottom: 0; 
+    margin-bottom: 10px;
+}
+
 h1 {
     margin-bottom: 15px; 
     font-weight: bold; 
@@ -107,15 +113,6 @@ label {
 }
 
 
-ul.stack {
-    text-align: left; 
-    list-style: none;
-    padding: 2px 0; 
-    border-top-right-radius: 10px; 
-    border-top-left-radius: 10px; 
-    font-family: 'Roboto', sans-serif; 
-    
-}
 
 .container {
     width: 100%; 
@@ -131,14 +128,6 @@ ul.stack {
     margin-left: 5px; 
     margin-right: 5px; 
     text-align: left;
-}
-
-
-
-.sideCar {
-    margin-left: 5px; 
-    margin-right: 5px; 
-    
 }
 
 
@@ -163,25 +152,10 @@ ul.stack {
     color: white; 
 }
 
-.carousel-item img {
-    width: 980px; 
-    height: auto; 
-    opacity: 0.95;
-}
 
 
 
 
-.projectHdg  {
-    color: white; 
-    font-weight: bold; 
-    text-align: left; 
-    position: relative;
-    display: inline; 
-
-    
-
-}
 
 
 
