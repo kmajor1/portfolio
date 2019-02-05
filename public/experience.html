@@ -36,7 +36,7 @@
 
 <body>
   <!-- navbar start -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light text-left">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Biography <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Biography <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="experience.html">Experience</a>
@@ -59,61 +59,33 @@
     </div>
   </nav>
   <!-- navbar end -->
-
+  <div class="container">
   <!-- header text -->
   <header id="nav" class="row">
     <div id="intro" class="ml-2 load-hidden col-md-9">
-      <h1 class="ml-2">Here's what I've done</h1>
+      <h1>Hi, I'm Kevin. Nice to meet you!</h1>
     </div>
   </header>
 
   <!-- page body container -->
 
-  <div class="ml-2 container-fluid">
+ 
     <!-- primary content holder -->
     <div class="row">
       <div id="mainContent" class="col-md-10 col hdgBox red load-hidden">
-        <!-- bootcamp projects -->
-        <div class="row">
-          <div class="col">
-            <h2>Work</h2>
-            <ul>
-              <li>GifTastic!</li>
-              <li>kPark</li>
-              <li>Jurassic Park Word Guess</li>
-              <li>Burgers!</li>
-              <li>Bamazon</li>
-              <li>Star Wars RPG</li>
-            </ul>
-          </div>
-          <!-- my own projects -->
-          <div class="col">
-            <h2>Technical</h2>
-            <ul>
-              <li>Project</li>
-              <li>Project</li>
-              <li>Project</li>
-              <li>Project</li>
-              <li>Project</li>
-              <li>Project</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h2>Life</h2>
-            <ul>
-              <li>Something</li>
-              <li>Something</li>
-              <li>Something</li>
-              <li>Something</li>
-              <li>Something</li>
-              <li>Something</li>
-            </ul>
-          </div>
-        </div>
+        <h2 class="text-align-left">Product Manager<br> Full Stack Web Developer</h2>
+        <p>I am a Web developer with 6+ years of business and technical experience working as a product manager in the
+          financial services industry.
+        </p>
+        <p>Experience working directly with IT professionals including developers, QA specialists and senior
+          management. I have technical experience with HTML, CSS, Git, JavaScript, TypeScript, MySQL, MongoDB, Firebase
+          and Node.JS. Proficient in full-stack with a strong backend skillset. </p>
       </div>
     </div>
+
     <!-- footer -->
-  <footer class="row d-flex">
+     <!-- footer -->
+  <footer class="flex-row d-flex">
       <div>
         <a href="https://www.linkedin.com/in/kevin-major-32bb1433">
           <img id="linkedInImg" class="mr-2" src="./assets/images/In-Black-34px-R.png">
@@ -125,9 +97,10 @@
         </a>
         </div>
     </footer>
+    
   </div>
 
-  
+
 
   <!-- Modal -->
   <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
@@ -179,11 +152,6 @@
   <script>
     ScrollReveal().reveal('#mainContent', { delay: 1000, duration: 3500, origin: 'left', distance: '150px' });
     ScrollReveal().reveal('#intro', { delay: 400, duration: 3000, origin: 'right', distance: '150px' });
-    linkedInImg = document.getElementById('linkedInImg');
-    gitHubImg = document.getElementById('gitHubImg');
-    btnContactMe = document.getElementById('btnContactMe');
-    console.log(linkedInImg);
-    console.log(gitHubImg);
 
     
 

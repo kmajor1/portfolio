@@ -30,7 +30,7 @@ body {
 }
 
 footer {
-    position: relative;
+    position: absolute;
     height: 75px; 
     bottom: 0; 
     margin-top: 20px; 

@@ -7,3 +7,71 @@
         <p>Experience working directly with IT professionals including developers, QA specialists and senior
           management. I have technical experience with HTML, CSS, Git, JavaScript, TypeScript, MySQL, MongoDB, Firebase
           and Node.JS. Proficient in full-stack with a strong backend skillset. </p>
+
+
+           <!-- bootcamp projects -->
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <h2>Coding Bootcamp</h2>
+            <ul>
+              <li>GifTastic!</li>
+              <li>kPark</li>
+              <li>Jurassic Park Word Guess</li>
+              <li>Burgers!</li>
+              <li>Bamazon</li>
+              <li>Star Wars RPG</li>
+            </ul>
+          </div>
+          <!-- my own projects -->
+          <div class="col-6">
+            <h2>My Projects</h2>
+            <ul>
+              <li>Project</li>
+              <li>Project</li>
+              <li>Project</li>
+              <li>Project</li>
+              <li>Project</li>
+              <li>Project</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+         <!-- bootcamp projects -->
+        <div class="row">
+          <div class="col">
+            <h2>Work</h2>
+            <ul>
+              <li>GifTastic!</li>
+              <li>kPark</li>
+              <li>Jurassic Park Word Guess</li>
+              <li>Burgers!</li>
+              <li>Bamazon</li>
+              <li>Star Wars RPG</li>
+            </ul>
+          </div>
+          <!-- my own projects -->
+          <div class="col">
+            <h2>Technical</h2>
+            <ul>
+              <li>Project</li>
+              <li>Project</li>
+              <li>Project</li>
+              <li>Project</li>
+              <li>Project</li>
+              <li>Project</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Life</h2>
+            <ul>
+              <li>Something</li>
+              <li>Something</li>
+              <li>Something</li>
+              <li>Something</li>
+              <li>Something</li>
+              <li>Something</li>
+            </ul>
+          </div>
+        </div>
