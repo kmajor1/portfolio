@@ -29,14 +29,27 @@ body {
     
 }
 
+/* mobile footer settings */
 footer {
-    position: fixed;
-    bottom: 0; 
-    left: 0; 
+    position: relative; 
     margin-top: 10px; 
-    margin-bottom: 10px;
-    margin-left: 20px; 
+    margin-left: 10px; 
+    margin-bottom: 10px; 
 }
+
+/* desktop */
+@media only screen and (min-width: 768px){
+    footer {
+        position: fixed;
+        right: 0;  
+        bottom: 0; 
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        margin-right: 10px; 
+    }
+}
+
+
 
 h1 {
     margin-bottom: 15px; 
